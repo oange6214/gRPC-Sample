@@ -1,7 +1,4 @@
-﻿using Grpc.Core;
-using System.Threading.Tasks.Dataflow;
-
-namespace GrpcService.Services;
+﻿namespace GrpcService.Services;
 
 //public class CalculatorService : Calculator.CalculatorBase
 //{

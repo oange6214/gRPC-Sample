@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrpcClientLib\GrpcClientLib.csproj" />
+    <ProjectReference Include="..\GrpcClientProxy\GrpcClientProxy.csproj" />
   </ItemGroup>
 
 </Project>

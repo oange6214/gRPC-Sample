@@ -4,5 +4,6 @@ namespace GrpcClientProxy.Services;
 
 public interface ICustomerService
 {
-    Task<CustomerModel> AddAsync(CustomerLookupModel request);
+    Task<CustomerModel> GetCustomerInfoAsync(CustomerLookupModel request);
+    IAsyncEnumerable<CustomerModel> GetNewCustomers(NewCustomerRequest request);
 }
